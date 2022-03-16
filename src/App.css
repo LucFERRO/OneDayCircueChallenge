@@ -1,0 +1,124 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navbar h1 {
+    background-color: none;
+}
+
+* {
+    background-color: #ac5aad;
+}
+
+
+#pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#command-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding: 20px 50px;
+    margin: 0 auto;
+}
+
+#command-form input {
+    border: none;
+    border-bottom: solid 1px grey;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#submit {
+    width: 100% !important;
+    height: 50px;
+}
+
+#reservation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+#reservation input {
+    text-align: center;
+    font-size: 16px;
+}
+
+#reservation > div {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#reservation-form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#reservation-form > div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#reservation-form > div label {
+    font-size: 32px;
+    margin-right: 15px;
+}
+
+#reservation-form > div .fauteuils {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+#reservation-form > div .dont {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#reservation-form > div .A {
+    font-size: 16px;
+}
+
+#reservation-form > div .hour {
+    width: 60px;
+    font-weight: bolder;
+}
+
+#paiement > div {
+    margin-bottom: 15px;
+}
+
+#paiement input {
+    margin-right: 10px;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.total span {
+    float: right;
+    height: 60px;
+    width: 50%;
+    font-size: 46px;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    text-align: center;
+}
